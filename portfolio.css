@@ -79,202 +79,134 @@
     font-size: 20px;
 }
 
-/* =================================================================================== */
-.section {
+
+/* ===================================SKILLS============================================== */
+.article {
     width: 92%;
     height: 800px;
     background-color: black;
     margin: auto;
 }
 
-.education {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+.skills h2 {
+    text-align: center;
     padding: 10px;
-    font-size: 25px;
-}
-
-.cont {
-    width: 85%;
-    height: 700px;
-    background-color: purple;
-    margin: auto;
-}
-
-.clg {
-    width: 202px;
-    height: 180px;
-    position: relative;
-    left: 0px;
-    top: 0px;
-    margin: 10px 10px;
-    font-size: 25px;
-}
-
-.line {
-    width: 4px;
-    height: 550px;
-    background-color: rgb(96, 245, 10);
-    position: relative;
-    left: 245px;
-    top: -153px;
-}
-
-.projects {
-    width: 763px;
-    height: 100px;
-    float: right;
-    position: relative;
-    right: 0px;
-    top: -147px;
-    font-size: 24px;
-}
-
-.Btech {
-    width: 765px;
-    height: 66px;
-    float: right;
-    position: relative;
-    left: 0px;
-    top: -180px;
-    font-size: 26px;
-}
-
-.mtech {
-    width: 650px;
-    height: 90px;
-    float: right;
-    position: relative;
-    right: 122px;
-    top: -165px;
-    font-size: 25px;
-}
-
-.mtech h4 {
-    padding: 10px;
-}
-
-.school {
-    width: 650px;
-    height: 90px;
-    float: right;
-    position: relative;
-    right: 113px;
-    top: -37px;
-    font-size: 25px;
-}
-
-.school p {
-    padding: 8px;
-}
-.scl_add{
-    width: 215px;
-    height: 150px;
-    float: left;
-    position: relative;
-    left: 0px;
-    top: -330px;
-    font-size: 24px;
-    margin: 10px;
-}
-/* ============================================================================================ */
-.article{
-    width: 92%;
-    height: 650px;
-    background-color: black;
-    margin: auto;
-}
-.skills h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    font-size: 27px;
+    font-size: 35px;
     font-weight: bolder;
-    position: relative;
-    left: -187px;
     color: white;
 }
 
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300");
-*, *::before, *::after {
-  box-sizing: border-box;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Lato";
-  font-size: 16px;
+    font-family: "Lato";
+    font-size: 16px;
 }
 
 /*** <--- CIRCLE STYLES ---> ***/
 .wrap-circles {
-  display: flex;
-  height: 540px;
-  width: 1200px;
-  /* min-height: 100vh; */
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 1rem;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/246/99/675/texture-digital-art-pattern-artwork-wallpaper-preview.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  left: 27px;
-  top: -100px;
+    display: flex;
+    height: 701px;
+    width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: url("https://wi.wallpapertip.com/wsimgs/40-407144_big-data-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .circle {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  margin: 2.5rem;
-  border-radius: 50%;
-  background: #FFCDB2;
-  overflow: hidden;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 2.5rem;
+    border-radius: 50%;
+    background: #FFCDB2;
+    overflow: hidden;
 }
+
 .circle.html {
-    background-image: conic-gradient(#B5838D 80%, #FFCDB2 0);
-  }
+    background-image: conic-gradient(#d10707 80%, #FFCDB2 0);
+}
+
 .circle.css {
-  background-image: conic-gradient(#B5838D 80%, #FFCDB2 0);
+    background-image: conic-gradient(#d10707 80%, #FFCDB2 0);
 }
+
 .circle.java {
-  background-image: conic-gradient(#B5838D 85%, #FFCDB2 0);
+    background-image: conic-gradient(#d10707 85%, #FFCDB2 0);
 }
+
 .circle.DSA {
-  background-image: conic-gradient(#B5838D 75%, #FFCDB2 0);
+    background-image: conic-gradient(#d10707 75%, #FFCDB2 0);
 }
+
 .circle.js {
-  background-image: conic-gradient(#B5838D 75%, #FFCDB2 0);
+    background-image: conic-gradient(#d10707 75%, #FFCDB2 0);
 }
+
+.circle.react {
+    background-image: conic-gradient(#d10707 75%, #FFCDB2 0);
+}
+
+.circle.node {
+    background-image: conic-gradient(#d10707 75%, #FFCDB2 0);
+}
+
+.circle.angular {
+    background-image: conic-gradient(#d10707 75%, #FFCDB2 0);
+}
+
+.circle.express {
+    background-image: conic-gradient(#d10707 75%, #FFCDB2 0);
+}
+
+.circle.mongo {
+    background-image: conic-gradient(#d10707 75%, #FFCDB2 0);
+}
+
+.circle.sql {
+    background-image: conic-gradient(#d10707 75%, #FFCDB2 0);
+}
+
+
 .circle.ML {
-    background-image: conic-gradient(#B5838D 75%, #FFCDB2 0);
+    background-image: conic-gradient(#d10707 75%, #FFCDB2 0);
 }
+
 .circle.NLP {
-    background-image: conic-gradient(#B5838D 70%, #FFCDB2 0);
+    background-image: conic-gradient(#d10707 70%, #FFCDB2 0);
 }
+
 .circle.DP {
-    background-image: conic-gradient(#B5838D 80%, #FFCDB2 0);
+    background-image: conic-gradient(#d10707 80%, #FFCDB2 0);
 }
+
 .circle .inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 115px;
-  height: 115px;
-  background: #000;
-  border-radius: 50%;
-  font-size: 20px;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 115px;
+    height: 115px;
+    background: #000;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.75);
 }
 
 /* =========================================================================================== */

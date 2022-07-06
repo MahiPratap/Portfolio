@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    font-family: 'Merriweather', serif;
+    margin: auto;
+    width: 92%;
+    height: 60px;
+    background-color: rgb(12, 12, 12);
+    align-items: center;
+
+}
+
+.pic {
+    width: 8%;
+    height: 60px;
+    float: left;
+}
+
+.name {
+    margin: 0px 5px;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 32%;
+    height: 60px;
+    float: left;
+}
+
+.name h1 {
+    margin: 10px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-start;
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+
+/* =============================================================== */
+.main-content{
+    background-color: rgb(77, 31, 31);
+    height: auto;
+    width: 92%;
+    margin: 5px auto;
+    display: grid;
+    /* grid-template-rows: 20% 80%; */
+    grid-template-columns: 400px 856px;
+}
+.left-section{
+    grid-area: 1/1/3/2;
+    grid-column: span 1;
+    background-color: #066740;  
+}
+
+.left-content{
+    padding: 1rem;
+    
+}
+.profile img{
+    width: 60%;
+    border: 5px solid white;
+    border-radius: 30%;
+    display: block;
+    margin: 0 auto;
+}
+.name1{
+    text-transform: uppercase;
+    padding: 0.8rem;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02px;
+}
+
+.designation{
+    font-size: 25px;
+    text-align: center;
+    text-transform:uppercase;
+    padding: 0.5rem;
+}
+.description{
+    font-size: 19px;
+    text-align: center;
+    padding: 1rem;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 5px;
+}
+.personal-details li{
+    font-size: 20px;
+}
+.hobbies_imgs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+.hobbies_imgs img{
+    margin: 5px;
+    padding: 5px;
+}
+
+.right-section{
+    /* background-color: rgb(168, 191, 164); */
+    grid-column: span 1 / span 2;
+    height: auto;
+    color: white;
+}
+.right-main-content {
+    padding: 2rem 3rem;
+}
+.right-title {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.para {
+    padding-left: 0.5rem;
+}
+
+
+
+/* @media screen and (max-width: 673px) {
+    .main-content {
+    grid-template-columns: repeat(1, 1fr);
+}
+} */
+
